@@ -1,0 +1,16 @@
+.block{
+	color: #FFFF2E;
+	font-size: 50px; 
+	text-align: center;
+	margin: 150px;
+	transition: 1.5s;
+	font-family: Ink Free;
+}
+
+.block:hover{
+	color: red;
+	transition: 0.8s;
+	transform: scale(1.2, 1.2);
+	text-shadow: 3px 3px white;
+}
+
