@@ -1,0 +1,25 @@
+.block{
+	color: #FFFF2E; 
+	text-align: center;
+	margin: 150px;
+	transition: 1.5s;
+	font-family: Ink Free;
+	font-size: calc(24px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+}
+
+.block:hover{
+	color: red;
+	transition: 0.8s;
+	transform: scale(1.2, 1.2);
+	text-shadow: 3px 3px white;
+}
+
+.block:active{
+	border-radius: 40px;
+	background-color: yellow;
+	transition: 0.3s;
+	box-shadow: 10px 10px white;
+	color: black;
+	text-shadow: 3px 3px gray;
+}
+
